@@ -1,12 +1,175 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Select Favourit Players</title>
+    <title>Select Favourite Players</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-    
+
+<body class="bg-current">
+    <!--------------------------- Header  ---------------------------->
+    <div class="flex justify-between items-center text-center my-12 mx-12 bg-black text-white">
+        <div class="w-1/3">
+            <img src="img/headerimg.jpeg" alt="">
+        </div>
+        <div>
+            <div>
+                <h2 class="text-6xl">Select Your Favourite Players</h2>
+                <!-- <img src="img/images.png" alt=""> -->
+            </div>
+            <p class="text-xl text-indigo-400">I am fond of all kinds of outdoor games particularly cricket. Among the
+                cricket players, I like Shakib Al Hasan, a Bangladeshi international cricketer.</p>
+        </div>
+        <div>
+            <img src="img/header2.jpeg" alt="" class="rounded-full">
+        </div>
+    </div>
+    <!----------------------- Main Content  -------------------------->
+    <Div class="flex bg-slate-950 py-10 px-12">
+        <!---------------- left ----------------->
+        <div class="grid grid-cols-3 gap-4  w-9/12">
+            <div class="text-white text-center  border-2 solid border-white  rounded hover:border-sky-500">
+                <img src="img/image1_messi.jpeg" alt="" class="rounded object-fill h-60 w-96">
+                <h4 id="player-one-name" class="text-2xl">Lionel Messi</h4>
+                <div class="flex justify-between px-12 pb-4 mt-2">
+                    <p>36 Goals</p>
+                    <p>120 Assist</p>
+                </div>
+                <button id="player-one"
+                    class="border-2 solid mt-3 py-2 px-8 bg-green-500 hover:bg-green-600 mb-4">Select Player</button>
+            </div>
+            <div class="text-white text-center border-2 solid border-white  rounded hover:border-sky-500">
+                <img src="img/image2_CR7.jpeg" alt="" class="rounded object-fill h-60 w-96">
+                <h4 id="player-two-name" class="text-2xl">Cristiano Ronaldo</h4>
+                <div class="flex justify-between px-12 pb-4 mt-2">
+                    <p>34 Goals</p>
+                    <p>124 Assist</p>
+                </div>
+                <button id="player-two"
+                    class="border-2 solid mt-3 py-2 px-8 bg-green-500 hover:bg-green-600 mb-4">Select Player</button>
+            </div>
+            <div class="text-white text-center border-2 solid border-white  rounded hover:border-sky-500">
+                <img src="img/image3-neymar.jpg" alt="" class="rounded object-fill h-60 w-96">
+                <h4 id="player-three-name" class="text-2xl">Neymar</h4>
+                <div class="flex justify-between px-12 pb-4 mt-2">
+                    <p>30 Goals</p>
+                    <p>110 Assist</p>
+                </div>
+                <button id="player-three"
+                    class="border-2 solid mt-3 py-2 px-8 bg-green-500 hover:bg-green-600 mb-4">Select Player</button>
+            </div>
+            <div class="text-white text-center  border-2 solid border-white  rounded hover:border-sky-500">
+                <img src="img/image4-ronaldo.jpg" alt="" class="rounded object-fill h-60 w-96">
+                <h4 id="player-four-name" class="text-2xl">Ronaldo</h4>
+                <div class="flex justify-between px-12 pb-4 mt-2">
+                    <p>40 Goals</p>
+                    <p>80 Assist</p>
+                </div>
+                <button id="player-four"
+                    class="border-2 solid mt-3 py-2 px-8 bg-green-500 hover:bg-green-600 mb-4">Select Player</button>
+            </div>
+            <div class="text-white text-center border-2 solidborder-white  rounded hover:border-sky-500">
+                <img src="img/image5-rivaldo.jpeg" alt="" class="rounded object-fill h-60 w-96">
+                <h4 id="player-five-name" class="text-2xl">Rivaldo</h4>
+                <div class="flex justify-between px-12 pb-4 mt-2">
+                    <p>34 Goals</p>
+                    <p>130 Assist</p>
+                </div>
+                <button id="player-five"
+                    class="border-2 solid mt-3 py-2 px-8 bg-green-500 hover:bg-green-600 mb-4">Select Player</button>
+            </div>
+            <div class="text-white text-center border-2 solid border-white  rounded hover:border-sky-500">
+                <img src="img/images6-jidan.jpeg" alt="" class="rounded object-fill h-60 w-96">
+                <h4 id="player-six-name" class="text-2xl">Jidan</h4>
+                <div class="flex justify-between px-12 pb-4 mt-2">
+                    <p>28 Goals</p>
+                    <p>130 Assist</p>
+                </div>
+                <button id="player-six"
+                    class="border-2 solid mt-3 py-2 px-8 bg-green-500 hover:bg-green-600 mb-4">Select Player</button>
+            </div>
+            <div class="text-white text-center border-2 solid border-white  rounded hover:border-sky-500">
+                <img src="img/image7-beckham.jpg" alt="" class="rounded object-fill h-60 w-96">
+                <h4 id="player-seven-name" class="text-2xl">Bekham</h4>
+                <div class="flex justify-between px-12 pb-4 mt-2">
+                    <p>26 Goals</p>
+                    <p>90 Assist</p>
+                </div>
+                <button id="player-seven"
+                    class="border-2 solid mt-3 py-2 px-8 bg-green-500 hover:bg-green-600 mb-4">Select Player</button>
+            </div>
+            <div class="text-white text-center border-2 solid border-white  rounded hover:border-sky-500">
+                <img src="img//images8-ronaldhino.jpeg" alt="" class="rounded object-fill h-60 w-96">
+                <h4 id="player-eight-name" class="text-2xl">Ronaldinho</h4>
+                <div class="flex justify-between px-12 pb-4 mt-2">
+                    <p>32 Goals</p>
+                    <p>125 Assist</p>
+                </div>
+                <button id="player-eight"
+                    class="border-2 solid mt-3 py-2 px-8 bg-green-500 hover:bg-green-600 mb-4">Select Player</button>
+            </div>
+            <div class="text-white text-center border-2 solid border-white  rounded hover:border-sky-500">
+                <img src="img/image9-carlos.jpeg" alt="" class="rounded object-fill h-60 w-96">
+                <h4 id="player-nine-name" class="text-2xl">Rabarto Carlos</h4>
+                <div class="flex justify-between px-12 pb-4 mt-2">
+                    <p>16 Goals</p>
+                    <p>80 Assist</p>
+                </div>
+                <button id="player-nine"
+                    class="border-2 solid mt-3 py-2 px-8 bg-green-500 hover:bg-green-600 mb-4">Select Player</button>
+            </div>
+
+        </div>
+
+        <!---------------- right ----------------->
+        <div class="grid grid-rows-3 e w-3/12 mx-4 ">
+            <!-- Up -->
+            <div class="text-center text-white border-2 rounded solid hover:border-sky-500">
+                <h4 class="text-4xl ">Selected players</h4>
+                <ol id="player-Container">
+                    <!-- <li>Player1</li>
+                <li>player2</li> -->
+                </ol>
+            </div>
+            <!-- Down -->
+            <div class="text-center border-2 rounded solid mt-4 hover:border-sky-500">
+                <h4 class="text-2xl text-white">Budget</h4>
+                <div class="mt-4">
+                    <label for="" class="text-lg text-white">Per Player</label>
+                    <input type="number" name="" id="per-player-cost" class="w-60 h-8">
+                </div>
+                <button id="claculate-btn"
+                    class="text-white border-2 solid mt-4 py-2 px-8 bg-green-500 hover:bg-green-600 w-10/12">Claculate</button>
+                <div class="flex mx-8 my-4 text-white">
+                    <label for="" class="pr-6 text-lg ">Player Expenses</label>
+                    <h4>$<span id="player-expence">00</span></h4>
+                </div>
+                <div class="mt-4">
+                    <label for="" class="text-lg text-white">Manager</label>
+                    <input type="number" name="" id="manager-cost" class="w-60 h-8">
+                </div>
+                <div class="mt-4 ">
+                    <label for="" class="text-lg pr-6 text-white">Coach</label>
+                    <input type="number" name="" id="coach-cost" class="w-60 h-8">
+                </div>
+                <button id="total-btn"
+                    class="text-white border-2 solid mt-4 py-2 px-8 bg-green-500 hover:bg-green-600 w-10/12">Claculate
+                    Total</button>
+                <div class="flex justify-between my-4 mx-12 text-2xl">
+                    <label for="" class="pr-6 text-white">Total</label>
+                    <h4 class="text-orange-500">$<span id="total-cost">00</span></h4>
+                </div>
+            </div>
+        </div>
+
+    </Div>
+    <!--------------------- Footer ---------------------------------->
+    <div class="text-center text-white text-xl py-12">
+        Copyright &copy; None 2024 - infinity
+    </div>
+
 </body>
+
 </html>
