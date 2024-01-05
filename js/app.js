@@ -23,66 +23,58 @@ function selectPlayer(playersName, btnId) {
 
     }
 }
-
-// function selectedBtnDisable(btnId) {
-//     const sButton = document.getElementById(btnId);
-//     sButton.disabled = true;
-//     sButton.style.background = '#8DF29B';
-
-// }
-
 document.getElementById('player-one').addEventListener('click', function () {
 
     selectPlayer('player-one-name', 'player-one');
-    // selectedBtnDisable('player-one');
+    
 
 })
 document.getElementById('player-two').addEventListener('click', function () {
 
     selectPlayer('player-two-name', 'player-two');
-    // selectedBtnDisable('player-two');
+    
 
 })
 document.getElementById('player-three').addEventListener('click', function () {
 
     selectPlayer('player-three-name', 'player-three');
-    // selectedBtnDisable('player-three');
+    
 
 })
 document.getElementById('player-four').addEventListener('click', function () {
 
     selectPlayer('player-four-name', 'player-four');
-    // selectedBtnDisable('player-four');
+    
 
 })
 document.getElementById('player-five').addEventListener('click', function () {
 
     selectPlayer('player-five-name', 'player-five');
-    // selectedBtnDisable('player-five');
+   
 
 })
 document.getElementById('player-six').addEventListener('click', function () {
 
     selectPlayer('player-six-name', 'player-six');
-    // selectedBtnDisable('player-six');
+    
 
 })
 document.getElementById('player-seven').addEventListener('click', function () {
 
     selectPlayer('player-seven-name', 'player-seven');
-    // selectedBtnDisable('player-seven');
+    
 
 })
 document.getElementById('player-eight').addEventListener('click', function () {
 
     selectPlayer('player-eight-name', 'player-eight');
-    // selectedBtnDisable('player-eight');
+    
 
 })
 document.getElementById('player-nine').addEventListener('click', function () {
 
     selectPlayer('player-nine-name', 'player-nine');
-    // selectedBtnDisable('player-nine');
+    
 
 })
 
@@ -103,7 +95,7 @@ document.getElementById('claculate-btn').addEventListener('click', function () {
         const pyalerContainer = document.getElementById('player-Container');
         const children = pyalerContainer.children;
         const playerNumber = children.length;
-        // console.log(playerNumber);
+        
 
         const totalPlayerExpence = perPlayerCost * playerNumber;
         playerExpenceElement.innerText = totalPlayerExpence;
@@ -143,7 +135,7 @@ document.getElementById('total-btn').addEventListener('click', function () {
         playerExpenceElement.innerText = '00';
     }
 
-    // console.log(perPlayerCost);
+    
 
 })
 
